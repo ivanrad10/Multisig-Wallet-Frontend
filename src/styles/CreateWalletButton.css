@@ -1,0 +1,21 @@
+.create-wallet-button {
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 100%; 
+    margin-top: 10px; 
+  }
+  
+  .create-wallet-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .create-wallet-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

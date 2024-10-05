@@ -1,0 +1,132 @@
+.container {
+    top: 8%; 
+    left: 0; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start; 
+  }
+  
+  h1 {
+    margin: 0 0 10px 0; 
+  }
+  
+  h2 {
+    margin: 0 0 10px 0; 
+  }
+  
+  ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  li {
+    margin: 5px 0; 
+    font-size: 1rem;
+  }
+  
+  h2 + ul {
+    margin-top: 10px; 
+  }
+  
+  .transactions-sections {
+    padding-top: 20px;
+    width: 100%;
+    min-height: 430px;
+    max-height: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px; 
+  }
+
+  .multisig-address {
+    text-decoration: underline;
+    font-size: 17px;
+    color: inherit;
+  }
+
+  .multisig-address:hover {
+    color: #DC1FFF; 
+  }
+
+  .owner-link {
+    color: inherit; 
+    text-decoration: none; 
+    cursor: pointer; 
+  }
+  
+  .owner-link:hover {
+    text-decoration: underline; 
+    color: #DC1FFF; 
+  }
+  
+
+  .transfer-buttons-section {
+    padding-top: 15px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .transfer-button {
+    background: linear-gradient(90deg, #217EFD 0%, #DC1FFF 100%);
+    background-size: 200%; 
+    background-position: left; 
+    border: none;
+    transition: background-position 0.2s ease-in-out;
+  }
+
+  .transfer-button:hover {
+    background-position: right; 
+  }
+
+  .owners-div {
+    width: 120%; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+}
+  
+.owners-list-container {
+    max-height: 80px; 
+    overflow-y: auto; 
+    width: 438px;
+}
+
+.owners-div li {
+    margin-bottom: 5px; 
+    font-size: 15px;    
+  }
+  
+  .title {
+    display: flex;
+    gap: 3.5%
+  }
+
+  .info-div {
+    max-width: 500px;
+    min-width: 485px;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 15px; 
+    left: 20px; 
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #DC1FFF; 
+    color: #fff;
+    transition: background-color 0.3s ease;
+    z-index: 9999; 
+  }
+  
+  .back-button:hover {
+    background-color: #1a60c9; 
+  }
+  
